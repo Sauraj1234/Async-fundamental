@@ -71,7 +71,7 @@ class User(Base):
 
     id = Column(Integer, primary_key=True)
     name = Column(String(100), nullable=False)
-
+```
 ## Setup Instructions
 
 Follow the steps below to set up and run the **grpcio_async_app** locally.
