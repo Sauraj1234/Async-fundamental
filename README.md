@@ -31,12 +31,13 @@ This project demonstrates **production-grade async patterns**, database connecti
 
 
 grpcio_async_app/
-├── server.py # Async gRPC server
-├── client.py # Concurrent async gRPC client
-├── user.proto # Protobuf definitions
+├── server.py          # Async gRPC server
+├── client.py          # Concurrent async gRPC client
+├── user.proto         # Protobuf definitions
 ├── user_pb2.py
 ├── user_pb2_grpc.py
 ├── README.md
+
 
 
 ---
@@ -70,3 +71,23 @@ class User(Base):
 
     id = Column(Integer, primary_key=True)
     name = Column(String(100), nullable=False)
+
+## Setup Instructions
+
+Follow the steps below to set up and run the **grpcio_async_app** locally.
+
+---
+
+### Prerequisites
+
+- Python **3.10 or higher**
+- PostgreSQL **13+**
+- `pip` (or any Python package manager)
+- Git
+
+Verify installations:
+```bash
+python --version
+psql --version
+
+
