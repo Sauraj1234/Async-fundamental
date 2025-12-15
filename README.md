@@ -29,7 +29,7 @@ This project demonstrates **production-grade async patterns**, database connecti
 
 ## Project Structure
 
-
+```
 grpcio_async_app/
 ├── server.py          # Async gRPC server
 ├── client.py          # Concurrent async gRPC client
@@ -37,7 +37,7 @@ grpcio_async_app/
 ├── user_pb2.py
 ├── user_pb2_grpc.py
 ├── README.md
-
+```
 
 
 ---
